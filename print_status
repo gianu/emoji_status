@@ -1,0 +1,11 @@
+#!/bin/sh
+
+status=`$*`
+
+if [[ $? == 0 ]];
+then
+  echo $status
+  echo "🏆  "
+else
+  echo "💣  "
+fi

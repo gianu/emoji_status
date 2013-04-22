@@ -9,7 +9,7 @@ Meet Emojis Status!, your friendly status.
 Now when you need to know the status of your last command just run:
 
 ```shell
-last_status
+print_status <command>
 ```
 
 and you will get a 💣  if something went wrong, or a 🏆  if everything went well.
